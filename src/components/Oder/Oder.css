@@ -1,0 +1,43 @@
+.shop-now{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.shop-detail{
+    margin-top: 180px;
+}
+.shop-detail p{
+    margin-bottom: 40px;
+}
+.shop-now img{
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+}
+.dis-sp{
+    color: orange;
+}
+.details-text{
+    margin: 0px;
+    color: #1C2B35;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+.shop-btn{
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #1C2B35;
+    background-color: orange;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+}
