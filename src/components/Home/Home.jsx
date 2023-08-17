@@ -1,9 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import Hero from '../../images/Hero.jpg';
-import './Oder.css';
+import './Home.css';
 
-const Oder = () => {
+const Home = () => {
     return (
         <div className='shop-now'>
             <div className="shop-detail">
@@ -17,4 +17,4 @@ const Oder = () => {
     );
 };
 
-export default Oder;
+export default Home;

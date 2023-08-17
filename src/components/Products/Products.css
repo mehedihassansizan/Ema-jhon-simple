@@ -10,3 +10,29 @@
 .product-container {
   margin: 50px;
 }
+.shopping-cart-container {
+  color: #000000;
+  background-color: #ff99004d;
+  width: 275px;
+  height: 944px;
+  font-style: normal;
+  line-height: normal;
+  margin-top: 50px;
+  position: sticky;
+  top: 0;
+  
+}
+.shopping-cart-container h6 {
+  margin: 0;
+  padding-left: 55px;
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.shopping-cart-container h5 {
+  color: #2a414f;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.085px;
+  padding-left: 20px;
+}
