@@ -1,15 +1,12 @@
 /* eslint-disable react/prop-types */
 // eslint-disable-next-line no-unused-vars
-import React from "react";
 import './Cart.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { faTrash } from '@fortawesome/free-solid-svg-icons'
-  import { faRightLong } from '@fortawesome/free-solid-svg-icons'
+import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
-const Cart = (props) => {
+const Cart = ({cart, clearTheCart, children}) => {
     // console.log(props.cart);
     // const cart = props.cart;
-    const {cart} = props;
 
     let totalPrice = 0;
     let totalShipping = 0;
@@ -37,13 +34,11 @@ const Cart = (props) => {
         <h5>Tax: ${tax.toFixed(2)}</h5>
         <h3 className="grd-total">Grand Total: ${grandTotal}</h3>
       </div>
-      <button className="clear-btn">
+      <button onClick={clearTheCart} className="clear-btn">
         Clear Cart <FontAwesomeIcon icon={faTrash} />
       </button>
       <br />
-      <button className="review-btn">
-        Review Order <FontAwesomeIcon icon={faRightLong} />
-      </button>
+      {children}
     </div>
   );
 };

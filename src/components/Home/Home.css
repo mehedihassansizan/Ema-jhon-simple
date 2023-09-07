@@ -48,3 +48,9 @@
 .shop-detail p{
     color: #1C2B35;
 }
+
+@media screen and (min-width :240px){
+    .shop-now img{
+        margin-left:100px;
+    }
+}

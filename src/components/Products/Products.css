@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 4fr 1fr;
 }
-.product-container {
+.product-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -35,4 +35,28 @@
   font-weight: 400;
   letter-spacing: 0.085px;
   padding-left: 20px;
+}
+
+
+@media screen and (max-width:336px) {
+  .product-container{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .shopping-cart-container {
+    width: 350px;
+    height: 944px;
+  }
+}
+@media screen and (max-width:280px) {
+  .product-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .shopping-cart-container {
+    width: 200px;
+    height: 944px;
+    position: fixed;
+    right: 0;
+  }
 }
