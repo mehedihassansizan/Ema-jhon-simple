@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Lato:wght@400;700&family=Manrope&family=Roboto&display=swap");
 body {
   margin: 0;
   min-width: 320px;
@@ -6,5 +7,3 @@ body {
 button {
   cursor: pointer;
 }
-
-

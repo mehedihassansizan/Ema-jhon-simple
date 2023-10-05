@@ -33,7 +33,7 @@ const Products = () => {
     // console.log(getDataFromDb);
     //  step-1: get the id
     for (const id in getDataFromDb) {
-      // console.log(id);
+      console.log(id);
       // step-1 : addedProduct
       const addedProduct = products.find((product) => product.id == id);
       // console.log(addedProduct);

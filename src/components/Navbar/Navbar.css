@@ -17,6 +17,14 @@
     color: orange;
 }
 
+.user-email{
+    margin-left: 20px;
+    color: rgb(190, 138, 138);
+}
+.signOut-Btn{
+    margin-left: 20px;
+}
+
 @media screen and (max-width:350px) {
     .navbar{
         min-width: 1000px;

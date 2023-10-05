@@ -1,0 +1,62 @@
+.login-container {
+  margin: 20px auto;
+  width: 500px;
+  height: 600px;
+  border-radius: 8px;
+  border: 1px solid #0c0c0c;
+}
+.from-control h1 {
+  margin-top: 30px;
+  text-align: center;
+  color: #2a414f;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.input-felid{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.from-control label {
+  padding: 10px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.026px;
+  color: #2a414f;
+  display: block;
+}
+.input-felid input {
+  border-radius: 5px;
+  border: 1px solid #95a0a7;
+  width: 415px;
+  height: 55px;
+  padding-left: 10px;
+}
+.btn-login {
+  border-radius: 5px;
+  background: rgba(255, 153, 0, 0.3);
+  margin-top: 40px;
+  width: 415px;
+  height: 55px;
+  border: none;
+}
+.from-control p{
+    text-align: center;
+}
+.link-yellow{
+    color: #F90;
+    text-decoration: none;
+}
+.error-orange{
+  color: #F90;
+}
+.success-green{
+  color: green;
+}
+.check-box-login{
+  margin-left: 40px;
+  margin-top: 10px;
+}
