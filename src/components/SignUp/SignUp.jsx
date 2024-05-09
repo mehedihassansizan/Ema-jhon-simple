@@ -1,12 +1,13 @@
 /* eslint-disable no-unused-vars */
 import React, { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthProvider } from "../ContextProvider/ContextProvider";
 
 const SignUp = () => {
     const [success, setSuccess] = useState('')
     const [error, setError] = useState('')
     const {signUp} = useContext(AuthProvider)
+    const navigate = useNavigate();
 
     const handleSignUp = event =>{
         event.preventDefault();
@@ -31,6 +32,7 @@ const SignUp = () => {
         .then(result => {
             const signUpUser = result.user;
             setSuccess("Successfully Sign Up")
+            navigate("/")
             form.reset();
         })
         .catch(error => {
